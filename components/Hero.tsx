@@ -61,7 +61,7 @@ const Hero = () => {
             growth.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show our work"
               icon={<FaLocationArrow />}

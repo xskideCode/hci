@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+    <section id="devs" className="w-full py-20">
       <h1 className="heading">
         Our <span className="text-purple">Team</span>
       </h1>
