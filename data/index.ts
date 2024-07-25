@@ -73,11 +73,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Habits Tracker",
-    des: "Discover the power of consistency with our habit tracker",
-    img: "/p1.png",
+    title: "AgroInsight",
+    des: "Enhancing Agriculture with Real-Time Data and Advanced Analytics",
+    img: "/p11.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.habitstracker.com",
+    link: "/ui.agroinsight.com",
   },
   {
     id: 2,

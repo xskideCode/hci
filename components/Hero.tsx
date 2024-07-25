@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <section id="hero" className="pb-20 pt-36">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -42,8 +42,8 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-lg text-center text-blue-100 max-w-80">
-            Savannah Coders
+          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+            Custom Software Development Agency
           </p>
 
           {/**
@@ -52,7 +52,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Custom Software Development Agency"
+            words="Welcome to Savannah Coders"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
@@ -70,7 +70,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
